@@ -36,8 +36,11 @@ end
 
 group :test do
   # Pretty printed test output
-  gem 'turn', '~> 0.8.3', :require => false
+  gem 'turn', '~> 0.8.3'
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
   gem 'spork-rails'
+  gem 'autotest', '4.4.6'
+  gem 'autotest-rails-pure', '4.1.2'
+  gem 'ZenTest', '4.6.2'
 end
