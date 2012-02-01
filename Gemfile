@@ -5,7 +5,7 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3','1.3.3'
+gem 'sqlite3','1.3.4'
 
 
 # Gems used only for assets and not required
@@ -39,4 +39,5 @@ group :test do
   gem 'turn', '~> 0.8.3', :require => false
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
+  gem 'spork-rails'
 end
